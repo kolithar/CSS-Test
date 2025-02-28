@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Design</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+        }
+
+        .outer-circle {
+            width: 250px;
+            height: 250px;
+            background: rgba(255, 0, 0, 0.5); /* Outer circle with shadow effect */
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .inner-circle {
+            width: 200px;
+            height: 200px;
+            background: red; /* Inner circle */
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text-circle {
+            width: 150px;
+            height: 150px;
+            background: purple; /* Inner circle with text */
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="outer-circle">
+    <div class="inner-circle">
+        <div class="text-circle">Hello</div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISE Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 3px solid #ccc;
+        }
+        
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: red;
+        }
+
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: purple;
+            color: white;
+            padding: 30px 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+        }
+
+        .sidebar a:hover {
+            background-color: #6a0dad;
+            padding-left: 10px;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 40px;
+            background-color: #fff;
+        }
+        .image-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+        .image-box {
+            width: 30%;
+            border: 2px solid #ccc;
+            text-align: center;
+            padding: 20px;
+            background-color: #fafafa;
+        }
+        .image-box img {
+            width: 100%;
+            max-width: 150px;
+            border-radius: 8px;
+        }
+        .image-box:hover {
+            transform: scale(1.05);
+            transition: 0.3s ease-in-out;
+        }
+        footer {
+            background-color: #ccc;
+            text-align: center;
+            padding: 20px 0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">LISE</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contacts</a>
+        <a href="#">About Us</a>
+    </nav>
+</header>
+
+<div class="container">
+    <aside class="sidebar">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contacts</a>
+        <a href="#">About Us</a>
+    </aside>
+
+    <section class="main-content">
+
+        <div class="image-row">
+            <div class="image-box">
+                <img src="image/images.png" alt="Image 1">
+                <p>Image 1</p>
+            </div>
+            <div class="image-box">
+                <img src="image/images.png" alt="Image 2">
+                <p>Image 2</p>
+            </div>
+            <div class="image-box">
+                <img src="image/images.png" alt="Image 3">
+                <p>Image 3</p>
+
+            </div>
+
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id felis ac sapien congue auctor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id felis ac sapien congue auctor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id felis ac sapien congue auctor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id felis ac sapien congue auctor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id felis ac sapien congue auctor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id felis ac sapien congue auctor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id felis ac sapien congue auctor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id felis ac sapien congue auctor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id felis ac sapien congue auctor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id felis ac sapien congue auctor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id felis ac sapien congue auctor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id felis ac sapien congue auctor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id felis ac sapien congue auctor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id felis ac sapien congue auctor.</p>
+    </section>
+</div>
+
+<footer>Developed By LISE</footer>
+</body>
+</html>
